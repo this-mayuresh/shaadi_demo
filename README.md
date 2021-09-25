@@ -14,6 +14,7 @@ Demo app created for shaadi.com interview
 - Will store list of users to db from network 
 - Will update new data in db when clicked on refresh button on top right hand corner
 - Will persist when clicked on accept/reject in db
+- In case device is offline data from db will be shown without making the network call
 - To completely remove data from db please uninstall as clear function is not provided
 
 
