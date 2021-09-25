@@ -41,6 +41,6 @@ constructor(
     fun getUsers() = userDao.getUsers()
 
     suspend fun updateUser(user: User): Int{
-     return userDao.updateUser(cacheMapper.mapToEntity(user))
+        return userDao.updateUser(cacheMapper.mapToEntity(user))
     }
 }
